@@ -75,7 +75,7 @@
                SSLImplementation="edu.internet2.middleware.security.tomcat6.DelegateToApplicationJSSEImplementation"
                scheme="https"
                SSLEnabled="true"
-               clientAuth="true"
+               clientAuth="false"
                keystoreFile="/opt/shibboleth-idp/credentials/idp.jks"
                keystorePass="CHANGEME" />
     <!-- A "Connector" using the shared thread pool-->

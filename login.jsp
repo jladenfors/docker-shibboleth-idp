@@ -12,7 +12,7 @@
     <div class="wrapper">
       <div class="container">
         <header>
-		<img src="http://trac.affinitic.be/trac/chrome/site/logo" />
+		<img src="http://leanon.se/images/LT_NEG_RGB.png" />
         </header>
     
         <div class="content">
