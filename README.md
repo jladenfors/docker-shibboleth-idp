@@ -9,7 +9,7 @@ Build it
 docker build -t demo/ipd .
 
 Run it with
-docker run -dt -v /Users/jonas/tmp:/opt/shibboleth-idp/metadata/ -p 8444:8443 demo/ipd 
+docker run -dt -p 8444:8443 demo/ipd 
 
 Copy the generated IDP metadata to your SP
 docker cp <containerid>:/opt/shibboleth-idp/metadata/idp-metadata.xml .
